@@ -19,7 +19,7 @@ var start = 2;
 	var end = 40;
 	var twoToForty = [];
 
-	for(var i = start; i <= end; i+= 1) {
+	for(var i = start; i <= end; i+= 2) {
 		twoToForty.push(i);
 	}
 	return twoToForty;
@@ -31,7 +31,7 @@ var start = 10;
 	var end = 1000;
 	var tenToThousand = [];
 
-	for(var i = start; i <= end; i+= 1) {
+	for(var i = start; i <= end; i+= 10) {
 		tenToThousand.push(i);
 	}
 	return ToThousand;
